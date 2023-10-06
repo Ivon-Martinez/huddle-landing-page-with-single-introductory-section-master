@@ -11,24 +11,31 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    outline: 2px solid black;
+    /*outline: 2px solid black;*/
     min-height: 96vh;
-    justify-content: space-around;
+    justify-content: center;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: 200px;
+    min-width: 1900px;
 
+}
+header{
 }
 .informacion{
     display: flex;
     flex-direction: row;
+    margin-top: 200px;
+
 }
 .imagenes{
-    width: 50%;
+    width: 54%;
+    min-width: 900px;
 }
 .formulario{
-    width: 50%;
-    margin-top: 30px;
-margin-left: 70px;
+    width: 46%;
+    margin-top: 140px;
+    margin-left: 100px;
+    
 }
 .picture{
     inline-size: -webkit-fill-available;
@@ -39,33 +46,37 @@ h1{
     color: rgba(255, 255, 255, 0.916);
     font-family: "poppins";
     font-weight: 600;
-    font-size: 300%;
+    font-size: 500%;
+    margin-top: -60px;
 }
+
 h3{
     color: rgba(255, 255, 255, 0.836);
     font-weight: 400;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 140%;
+    font-size: 278%;
+    font-weight: 300;
+
 
 }
 button{
     color: hsl(257, 40%, 49%);
     font-weight: 400;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 18px;
+    font-size: 25px;
     background-color:white;
 
-    padding: 16px;
-    width: 200px;
+    padding: 22px;
+    width: 300px;
     border: none;
-    border-radius: 30px;
+    border-radius: 40px;
     box-shadow: 5px 7px 8px 0px #51159c;
-cursor: pointer;
+    cursor: pointer;
 
 }
 button:hover{
     background-color:hsl(300, 69%, 71%);
-        color: rgba(255, 255, 255, 0.836);
+    color: rgba(255, 255, 255, 0.836);
 
     
 }
@@ -102,7 +113,14 @@ button:hover{
 }
 .fa-twitter{
    /* background: white;*/
-   color: white;
+    color: white;
     border: solid;
     border-width: thin;
     border-color: rgb(242, 239, 239);
+}
+
+.iconos
+{
+    display: flex;
+    justify-content: flex-end;
+}
