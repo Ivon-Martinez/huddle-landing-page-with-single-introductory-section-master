@@ -4,8 +4,8 @@ body{
     min-height: 99vh;
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
-    background-size: 2550px;
     display: flex;
+    background-size: 2550px;
     flex-direction: column;
 }
 .container{
@@ -19,8 +19,7 @@ body{
     min-width: 1900px;
 
 }
-header{
-}
+
 .informacion{
     display: flex;
     flex-direction: row;
@@ -123,4 +122,73 @@ button:hover{
 {
     display: flex;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width:2270px){
+body{
+    background-image: url("images/bg-mobile.svg");
+    /*background-size: 1100px;*/
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid black;
+    min-height: 90vh;
+    /* max-height: 70vh; */
+    margin-left: 80px;
+    margin-right: 80px;
+    min-width: 1035px;
+    align-items: center;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    max-width: 1035px;
+
+}
+.imagenes{
+    width: 5%;
+    min-width: 900px;
+}
+.formulario{
+    width: 100%;
+    margin-top: 140px;
+    margin-left: 0px;
+    text-align: -webkit-center;  
+}
+.picture{
+    inline-size: -webkit-fill-available;
+    /*margin: 120px;*/
+}
+
+h1{
+  
+
+    font-size: 400%;
+    margin-top: -60px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 228%;
+}
+button{
+   
+    width: 500px;
+
+}
+.iconos
+{
+ 
+    margin-top: 150px;
+
+}
+header{
+    margin-top: 100px;
+}
 }
