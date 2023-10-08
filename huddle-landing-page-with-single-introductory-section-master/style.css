@@ -81,7 +81,7 @@ button:hover{
 }
 
 .fa{
-    padding: 12px;
+    padding: 15px;
     font-size: 20px;
     width: 20px;
     text-align: center;
@@ -122,6 +122,8 @@ button:hover{
 {
     display: flex;
     justify-content: flex-end;
+
+
 }
 
 @media only screen and (max-width:2270px){
@@ -135,11 +137,9 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    outline: 2px solid black;
     min-height: 90vh;
-    /* max-height: 70vh; */
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
     min-width: 1035px;
     align-items: center;
 }
@@ -153,10 +153,10 @@ body{
 }
 .imagenes{
     width: 5%;
-    min-width: 900px;
+    min-width: 690px;
 }
 .formulario{
-    width: 100%;
+    width: 64%;
     margin-top: 140px;
     margin-left: 0px;
     text-align: -webkit-center;  
@@ -169,7 +169,7 @@ body{
 h1{
   
 
-    font-size: 400%;
+    font-size: 340%;
     margin-top: -60px;
 }
 
@@ -179,16 +179,18 @@ h3{
 }
 button{
    
-    width: 500px;
+    width: 420px;
 
 }
 .iconos
 {
  
-    margin-top: 150px;
+    margin-top: 100px;
+    min-width: 235px;
+    justify-content: space-evenly;
 
 }
 header{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 }
